@@ -1,10 +1,14 @@
 name 'octopass'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
+maintainer 'linyows'
+maintainer_email 'linyows@gmail.com'
+license 'MIT'
 description 'Installs/Configures octopass'
 long_description 'Installs/Configures octopass'
 version '0.1.0'
+
+%w(centos).each do |os|
+  supports os
+end
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

@@ -1,4 +1,4 @@
-# octopass
+octopass-cookbook
+=================
 
-TODO: Enter the cookbook description here.
-
+https://github.com/linyows/octopass
