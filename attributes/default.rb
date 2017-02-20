@@ -1,7 +1,7 @@
 # Cookbook Name: octopass
 # Attribute: default
 
-default['octopass']['version']                = '0.1.0-1'
+default['octopass']['version']                = '0.2.0-1'
 
 default['octopass']['endpoint']               = 'https://api.github.com'
 default['octopass']['token']                  = nil
